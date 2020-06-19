@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background: #355c7d;
+    background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.score-box {
+    margin: 0 auto;
+    border: 5px solid black;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.score-box-in {
+    display: inline-block;
+    width: 48%;
+}
+
+.score-name {
+    font-size: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.score-name-in {
+    display: inline-block;
+    width: 48%;
+}
+
+.game {
+    font-size: 40px;
+    font-weight: 700;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.player-choice {
+    width: 48%;
+    font-size: 70px;
+    display: inline-block;
+}
+
+.computer-choice {
+    width: 48%;
+    display: inline-block;
+    font-size: 70px;
+}
+
+.player-choice i {
+    margin: 20px;
+}
+
+.player-choice i:hover {
+    color: #2a9d8f;
+    cursor: pointer;
+}
+
+.winner-info {
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+.winner-name {
+    color: wheat;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.reset-div {
+    margin-top: 40px;
+}
+
+.reset-btn {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ed6e78;
+    color: white;
+}
+
+.reset-btn:hover {
+    background-color: #e63746;
+}

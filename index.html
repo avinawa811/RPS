@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./img/icon.svg" />
+        <script src="https://kit.fontawesome.com/53fccbd1ad.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="scores">
+                <div class="score-box">
+                    <div class="score-box-in">
+                        <p class="score-player-text">0</p>
+                    </div>
+                    <div class="score-box-in">
+                        <p class="score-computer-text">0</p>
+                    </div>
+                </div>
+                <div class="score-name">
+                    <div class="score-name-in"><p class="score-name-player">Player</p></div>
+                    <div class="score-name-in"><p class="score-name-computer">Computer</p></div>
+                </div>
+                <div class="reset-div">
+                    <button class="reset-btn">Reset</button>
+                </div>
+                <div class="winner-info">
+                    <!-- <p class="winner-name">You Win</p>
+                    <p>Your Choice: <i class="far fa-hand-rock"></i></p>
+                    <p>Computer Choice: <i class="far fa-hand-paper"></i></p> -->
+                </div>
+                <div class="game">
+                    <div class="player-choice">
+                        <i class="far fa-hand-rock" data-val="rock"></i>
+                        <i class="far fa-hand-paper" data-val="paper"></i>
+                        <i class="far fa-hand-scissors" data-val="scissors"></i>
+                        <p class="name-player">Player</p>
+                    </div>
+                    <div class="computer-choice">
+                        <!-- <i class="far fa-hand-rock"></i> -->
+                        <p class="name-player">Computer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+        
+    </body>
+</html>

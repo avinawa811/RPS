@@ -1,0 +1,40 @@
+html
+{
+    
+    background-image: linear-gradient(to left, rgba(160, 10, 10, 0.815),black);
+    
+}
+#registerForm
+{
+    background-color: rgba(37, 156, 236, 0.418);
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 30px;
+    height:  300px;
+    
+    
+}
+#registerHeading
+{
+    margin-top: 40px;
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+#formSubmitBtn:link,
+#formSubmitBtn:visited
+{
+    text-decoration: none;
+    font-size: 40px;
+    background-color: purple;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 200px;
+    color: white;
+    font-weight: 700;
+}
